@@ -29,7 +29,7 @@ export const router = createBrowserRouter([
         },
         {
           path: "admissionapply",
-          element: <AdmissionForm></AdmissionForm>
+          element: <PrivateRoute><AdmissionForm></AdmissionForm></PrivateRoute>
         }
         
       ]
