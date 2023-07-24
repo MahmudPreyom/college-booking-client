@@ -7,6 +7,8 @@ import Colleges from "./Components/Home/Colleges/Colleges";
 import Admission from "./Components/Admission/Admission";
 import AdmissionForm from "./Components/AdmissionForm/AdmissionForm";
 import ViewDetails from "./Components/ViewDetails/ViewDetails";
+import MyCollege from "./Components/Mycollege/MyCollege";
+import PrivateRoute from "./PrivateRoute";
 
 export const router = createBrowserRouter([
     {
@@ -43,6 +45,10 @@ export const router = createBrowserRouter([
     {
       path: "viewdetails/:viewdetailsId",
       element: <ViewDetails></ViewDetails>,
-      loader: ({params}) => fetch(`http://localhost:5000/colleges/${params.viewdetailsId}`)
+      loader: ({params}) => fetch(`https://college-booking-server-psi.vercel.app/colleges/${params.viewdetailsId}`)
+    },
+    {
+      path: "mycollege",
+      element: <PrivateRoute><MyCollege></MyCollege></PrivateRoute>
     }
   ]);

@@ -25,7 +25,7 @@ const NavBar = () => {
                             <Link to='/'>Home</Link>
                             <Link to="/colleges">College</Link>
                             <Link to="/admission">Admission</Link>
-                            <Link>My College</Link>
+                            <Link to="/mycollege">My College</Link>
                             {
                                 user ?
                                     <><button onClick={handleLogOut} className="btn btn-sm">Log Out</button></> :

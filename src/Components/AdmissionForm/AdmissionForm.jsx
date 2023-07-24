@@ -5,7 +5,7 @@ const AdmissionForm = () => {
             <form className="max-w-lg mx-auto">
                 <div className="mb-4">
                     <label htmlFor="pictureURL" className="block text-gray-700 font-bold">
-                        Your Picture
+                        Candidate Picture
                     </label>
                     <input
                         type="text"
@@ -15,7 +15,7 @@ const AdmissionForm = () => {
                 </div>
                 <div className="mb-4">
                     <label htmlFor="name" className="block text-gray-700 font-bold">
-                        Your Name
+                        Candidate Name
                     </label>
                     <input
                         type="text"
@@ -24,28 +24,48 @@ const AdmissionForm = () => {
                     />
                 </div>
                 <div className="mb-4">
-                    <label htmlFor="sellerName" className="block text-gray-700 font-bold">
-                        Seller Name
+                    <label htmlFor="birthDate" className="block text-gray-700 font-bold">
+                        candidate Birth Of Date
                     </label>
                     <input
-                        type="text"
-                        name="sellerName"
+                        type="date"
+                        name="birthDate"
                         className="border border-gray-300 rounded-md px-4 py-2 w-full" required
                     />
                 </div>
                 <div className="mb-4">
-                    <label htmlFor="sellerEmail" className="block text-gray-700 font-bold">
-                        Your Email
+                    <label htmlFor="address" className="block text-gray-700 font-bold">
+                        Candidate Address
+                    </label>
+                    <input
+                        type="text"
+                        name="address"
+                        className="border border-gray-300 rounded-md px-4 py-2 w-full" required
+                    />
+                </div>
+                <div className="mb-4">
+                    <label htmlFor="phoneNumber" className="block text-gray-700 font-bold">
+                        Candidate Phone Number
+                    </label>
+                    <input
+                        type="number"
+                        name="phoneNumber"
+                        className="border border-gray-300 rounded-md px-4 py-2 w-full" required
+                    />
+                </div>
+                <div className="mb-4">
+                    <label htmlFor="candidateEmail" className="block text-gray-700 font-bold">
+                        Candidate Email
                     </label>
                     <input
                         type="email"
-                        name="sellerEmail"
+                        name="candidateEmail"
                         className="border border-gray-300 rounded-md px-4 py-2 w-full" required
                     />
                 </div>
                 <div className="mb-4">
                     <label htmlFor="subCategory" className="block text-gray-700 font-bold">
-                        Sub-category
+                        Department
                     </label>
                     <select
                         name="subCategory"
@@ -57,46 +77,8 @@ const AdmissionForm = () => {
                         <option value="Earts">Earts</option>
                     </select>
                 </div>
-                <div className="mb-4">
-                    <label htmlFor="price" className="block text-gray-700 font-bold">
-                        Price
-                    </label>
-                    <input
-                        type="number"
-                        name="price"
-                        className="border border-gray-300 rounded-md px-4 py-2 w-full" required
-                    />
-                </div>
-                <div className="mb-4">
-                    <label htmlFor="rating" className="block text-gray-700 font-bold">
-                        Rating
-                    </label>
-                    <input
-                        type="number"
-                        name="rating"
-                        className="border border-gray-300 rounded-md px-4 py-2 w-full" required
-                    />
-                </div>
-                <div className="mb-4">
-                    <label htmlFor="quantity" className="block text-gray-700 font-bold">
-                        Available Quantity
-                    </label>
-                    <input
-                        type="number"
-                        name="quantity"
-                        className="border border-gray-300 rounded-md px-4 py-2 w-full" required
-                    />
-                </div>
-                <div className="mb-4">
-                    <label htmlFor="quantity" className="block text-gray-700 font-bold">
-                    Detail description
-                    </label>
-                    <input
-                        type="text"
-                        name="detailDescription"
-                        className="border border-gray-300 rounded-md px-4 py-2 w-full" required
-                    />
-                </div>
+                
+                
                 <div className="text-center">
                     <button
                         type="submit"
