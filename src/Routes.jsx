@@ -28,12 +28,8 @@ export const router = createBrowserRouter([
         {
           path: "admissionapply",
           element: <AdmissionForm></AdmissionForm>
-        },
-        {
-          path: "viewdetails",
-          element: <ViewDetails></ViewDetails>,
-          // loader: ({params}) => fetch(`colleges.json${params.id}`)
         }
+        
       ]
     },
     {
@@ -43,5 +39,10 @@ export const router = createBrowserRouter([
     {
       path: "register",
       element: <Register></Register>
+    },
+    {
+      path: "viewdetails/:viewdetailsId",
+      element: <ViewDetails></ViewDetails>,
+      loader: ({params}) => fetch(`http://localhost:5000/colleges/${params.viewdetailsId}`)
     }
   ]);

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Colleges = () => {
     const [colleges, setColleges] = useState([])
     useEffect(() => {
-        fetch('colleges.json')
+        fetch('http://localhost:5000/colleges')
             .then(res => res.json())
             .then(data => {
                 setColleges(data)
@@ -25,7 +25,7 @@ const Colleges = () => {
                                 <p><span className="font-semibold">Admission Date: </span> {item.admissionDates}</p>
                                 <p><span className="font-semibold">Ratting: </span> {item.rating}</p>
                                 <div className="card-actions">
-                                    <Link className="btn btn-primary">View Details</Link>
+                                    <Link to={`/viewdetails/${item._id}`} className="btn btn-primary">View Details</Link>
                                 </div>
                             </div>
                         </div>

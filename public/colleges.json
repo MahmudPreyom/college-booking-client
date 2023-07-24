@@ -7,20 +7,20 @@
       "rating": 4,
       "events": [
         {
-          "id": "event1",
+          "id": "Event1",
           "name": "Freshers' Welcome",
           "date": "October 5, 2023",
           "description": "Welcome new students to Dhaka College!"
         },
         {
-          "id": "event2",
+          "id": "Event2",
           "name": "Science Expo",
           "date": "November 15, 2023",
           "description": "Showcasing scientific innovations by students."
         }
       ],
       "researchHistory": "Dhaka College is one of the oldest and most prestigious colleges in Bangladesh.",
-      "sports": ["Cricket", "Football", "Basketball", "Volleyball"]
+      "sports": ["Cricket" , "Football", "Basketball", "Volleyball"]
     },
     {
       "id": 2,
@@ -30,13 +30,13 @@
       "rating": 4.5,
       "events": [
         {
-          "id": "event3",
+          "id": "Event3",
           "name": "Cultural Fest",
           "date": "November 10, 2023",
           "description": "Celebration of cultural diversity and talents."
         },
         {
-          "id": "event4",
+          "id": "Event4",
           "name": "Literary Symposium",
           "date": "December 20, 2023",
           "description": "An event dedicated to literature and creative writing."
@@ -53,13 +53,13 @@
       "rating": 5,
       "events": [
         {
-          "id": "event5",
+          "id": "Event5",
           "name": "Art Exhibition",
           "date": "September 25, 2023",
           "description": "Showcasing artworks by talented students."
         },
         {
-          "id": "event6",
+          "id": "Event6",
           "name": "Sports Carnival",
           "date": "October 10, 2023",
           "description": "A fun-filled sports event for students."
@@ -76,13 +76,13 @@
       "rating": 3.5,
       "events": [
         {
-          "id": "event7",
+          "id": "Event7",
           "name": "Cultural Night",
           "date": "August 15, 2023",
           "description": "A night of cultural performances and festivities."
         },
         {
-          "id": "event8",
+          "id": "Event8",
           "name": "Debate Competition",
           "date": "September 5, 2023",
           "description": "An intellectual battle of ideas and arguments."
@@ -99,13 +99,13 @@
       "rating": 3.3,
       "events": [
         {
-          "id": "event9",
+          "id": "Event9",
           "name": "Science Exhibition",
           "date": "April 5, 2023",
           "description": "Display of scientific projects and experiments by students."
         },
         {
-          "id": "event10",
+          "id": "Event10",
           "name": "Cultural Program",
           "date": "May 20, 2023",
           "description": "A showcase of cultural performances by talented students."
@@ -122,13 +122,13 @@
       "rating": 5,
       "events": [
         {
-          "id": "event11",
+          "id": "Event11",
           "name": "Science Fair",
           "date": "March 15, 2024",
           "description": "Exhibition of scientific innovations and discoveries."
         },
         {
-          "id": "event12",
+          "id": "Event12",
           "name": "Cultural Heritage Day",
           "date": "April 10, 2024",
           "description": "Celebrating the rich cultural heritage of Bangladesh."
